@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Online example: https://codesandbox.io/s/muddy-meadow-wqhj6?file=/src/index.tsx
+
+### Запуск
+1. `yarn install`
+2. `yarn start`
+
 ### Summary
 Во время выполнения задачи я не смог найти пример формата данных для облигаций
 я воспользовался дампом исторических данных для акций Apple на американской биржи.
