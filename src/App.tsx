@@ -99,7 +99,7 @@ function App() {
   return (
     <div>
       <h1>AAPL {lastDay.Close}<small>USD</small></h1>
-      <p>AAPL, till {format(lastDay.Date, 'dd.MM.yyy')}</p>
+      <p>AAPL, from {format(data[0].Date, 'dd.MM.yyy')} till {format(lastDay.Date, 'dd.MM.yyy')}</p>
       <hr/>
       <div>
         <ButtonGroup aria-label="Basic example" toggle={true}>

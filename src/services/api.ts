@@ -1,7 +1,6 @@
 import data from '../data/aapl'
 import { add, isWithinInterval } from 'date-fns';
 
-
 export const lastData = new Date(data[data.length - 1].Date);
 
 export const getData = () => data;
